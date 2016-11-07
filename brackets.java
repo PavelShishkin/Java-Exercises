@@ -23,11 +23,12 @@ public class Brackets
             }
             else if (Char == ')' || Char == ']' || Char == '}' || Char == '>')
             {
-                if(stackChar.empty()) {
+                if(stackChar.empty()) 
+                {
                     error = true;
                     break;
-                }
-                else
+                } 
+                else 
                 {
                     if(Char == ')') {
                         if (stackChar.peek() == '(') {
