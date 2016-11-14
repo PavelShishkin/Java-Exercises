@@ -4,6 +4,7 @@ import java.util.Scanner;
  
 /**
  * Created by Pavel on 10.08.16.
+ * Task href: http://informatics.mccme.ru/mod/statements/view3.php?chapterid=262#1
  */
  
 public class Array {
