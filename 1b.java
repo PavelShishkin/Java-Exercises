@@ -1,6 +1,8 @@
 import java.lang.Math;
 import java.util.Scanner;
- 
+/**
+ * Task href: http://informatics.mccme.ru/mod/statements/view3.php?chapterid=259#1
+ **/
 class Chips
 {
     public static void main(String[] args)
