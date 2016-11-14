@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * Created by Pavel on 10.08.16.
+ * Task:"Программа получает на вход 4 числа. Вывести Yes, если среди этих чисел ровно два положительных, No - в противном случае" 
  */
 
 public class Array {
