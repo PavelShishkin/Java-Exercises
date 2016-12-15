@@ -101,15 +101,29 @@ class SmartRobot extends Robot {
         while (x != toX || y != toY) {
 
             if(x < toX) {
-                dir = Direction.RIGHT;
+                while (getDirection() != Direction.RIGHT)
+                {
+                    turnRight();
+                }
             } else if(x > toX) {
-                dir = Direction.LEFT;
+                while (getDirection() != Direction.LEFT)
+                {
+                    turnLeft();
+                }
             }
 
             if(y < toY) {
-                dir = Direction.UP;
+
+                while (getDirection() != Direction.UP)
+                {
+                    turnRight();
+                }
+
             } else if(y > toY)  {
-                dir = Direction.DOWN;
+                while (getDirection() != Direction.DOWN)
+                {
+                    turnLeft();
+                }
             }
 
             stepForward();
@@ -123,6 +137,7 @@ class SmartRobot extends Robot {
         r.moveRobot(6, 8);
     }
 }
+
 
 
 
