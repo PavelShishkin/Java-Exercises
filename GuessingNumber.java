@@ -34,7 +34,7 @@ public class GuessingNumber
                 System.out.println("Ответ: " + max);
                 break;
 
-            }else if(max - min == 1) {
+            } else if(max - min == 1) {
                 System.out.println("Ваше число < " + max);
                 answer = in.next().charAt(0);
 
