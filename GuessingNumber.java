@@ -14,10 +14,10 @@ public class GuessingNumber
         int from = in.nextInt();
         System.out.println("ДО:");
         int to   = in.nextInt();
-
+        
         int min = from;
-        int avg = to/2;
         int max = to;
+        int avg = max / 2;
 
         char answer;
         
@@ -25,6 +25,7 @@ public class GuessingNumber
         if(max < min) {
             min = to;
             max = from;
+            avg = max / 2;
         }
         
         while (true) {
