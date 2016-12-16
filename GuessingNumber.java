@@ -20,7 +20,13 @@ public class GuessingNumber
         int max = to;
 
         char answer;
-
+        
+        //Если неправильно указали диапазон (от и до)
+        if(max < min) {
+            min = to;
+            max = from;
+        }
+        
         while (true) {
 
             if(max == min) {
