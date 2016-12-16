@@ -29,7 +29,6 @@ public class GuessingNumber
                 break;
 
             }else if(max - min == 1) {
-                System.out.println("Ваше число >= " + avg + " ? (y/n)"+ max + "avg =" + avg);
                 System.out.println("Ваше число < " + max);
                 answer = in.next().charAt(0);
 
@@ -47,7 +46,7 @@ public class GuessingNumber
                 break;
             }
 
-            System.out.println("Ваше число >= " + avg + " ? (y/n)"+ max + "avg =" + avg);
+            System.out.println("Ваше число >= " + avg + " ? (y/n)");
             answer = in.next().charAt(0);
 
             if(answer == 'y') {
