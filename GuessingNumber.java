@@ -17,15 +17,15 @@ public class GuessingNumber
         
         int min = from;
         int max = to;
-        int avg = max / 2;
+        int avg = (max + min)  / 2;
 
         char answer;
-        
+
         //Если неправильно указали диапазон (от и до)
         if(max < min) {
             min = to;
             max = from;
-            avg = max / 2;
+            avg = (max + min)  / 2;
         }
         
         while (true) {
